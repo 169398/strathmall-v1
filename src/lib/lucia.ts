@@ -45,6 +45,7 @@ export const getUser = async () =>{
           select:{
             name: true,
             email:true,
+            picture:true
           }
       })
         return dbuser
